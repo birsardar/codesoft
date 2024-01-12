@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    /* padding: 20px 0; */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-image {
+    margin-top: -5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%ds;
+}
+
+.profile-image img {
+    width: auto;
+    height: 200px;
+    border-color: #333;
+    border-radius: 25%;
+    /* Make the image circular */
+    overflow: hidden;
+}
+
+
+
+
+section {
+    margin: 40px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... (Other styles) ... */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+progress {
+    width: 80%;
+    /* Adjust the width as needed */
+    margin-left: 10px;
+}
+
+/* Style the progress bar appearance */
+progress::-webkit-progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #007bff;
+    /* Change the color as needed */
+    border-radius: 5px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #007bff;
+    /* Change the color as needed */
+    border-radius: 5px;
+}
